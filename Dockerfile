@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
-ARG AWS_VERSION="1.17.11"
+ARG AWS_VERSION="1.17.12"
 ARG KUBE_VERSION="v1.17.2"
 
 RUN apk update \
