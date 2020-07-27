@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Vasco Santos <jvosantos@gmail.com>
 
-ARG AWS_VERSION="2.0.9"
+ARG AWS_VERSION="2.0.10"
 ARG KUBE_VERSION="v1.18.6"
 
 RUN apt-get update \
